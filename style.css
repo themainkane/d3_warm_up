@@ -1,0 +1,43 @@
+a {
+  color: crimson;
+  text-decoration: none;
+}
+
+.about {
+  background-color: #eaeaea;
+}
+
+p > .link {
+  font-family: lato;
+  text-decoration: none;
+}
+
+p > .link.font {
+  font-family: "PT Serif";
+  font-weight: 700;
+}
+
+.cta > h2 {
+  color: crimson;
+  font-family: lato;
+}
+
+li:nth-child(odd) {
+  text-decoration: underline;
+}
+
+nav > a {
+  display: inline-block;
+}
+
+nav > a::after {
+  width: 100%;
+  position: absolute;
+  transform: scaleX(0);
+}
+nav > a:hover {
+  text-decoration: underline;
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: 3s;
+}
